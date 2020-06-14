@@ -1,0 +1,12 @@
+﻿<UserControl x:Class="UserControl1"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" Height="300" Width="300">
+    <Grid Width="303" Height="299">
+        <TextBox Height="32" HorizontalAlignment="Left" Margin="12,87,0,0" Name="TextBox1" VerticalAlignment="Top" Width="248" />
+        <Button Content="Button" Height="32" HorizontalAlignment="Right" Margin="0,87,8,0" Name="Button1" VerticalAlignment="Top" Width="33" />
+        <ListView Height="36" HorizontalAlignment="Left" Margin="87,215,0,0" Name="ListView1" VerticalAlignment="Top" Width="109"  />
+    </Grid>
+</UserControl>
